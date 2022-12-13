@@ -8,32 +8,85 @@
     <link rel="stylesheet" href="style.css">
     <title>Julie Iben Kristensen</title>
   </head>
-  <body class="bg-[url('/img/portfolio-bg.png')] bg-cover">
-    <header class="mt-10 pb-10 border-b-2">
-      <nav>
-        <ul class="flex justify-center gap-9">
-          <li>Kompetencer &  interesser</li>
-          <li>Om mig</li>
-          <li>Fremtidige arbejdsopgaver</li>
-          <li>Galleri</li>
-        </ul>
+  <body class="bg-[url('/img/portfolio-bg.png')]  bg-cover">
+    <header class=" hidden md:block mt-10 pb-10 border-b-2 border-red-400 place-content-center">
+      <nav class="text-center ">
+        <a href="#2" class="mr-5 hover:text-red-400">Mine kompetencer & interesser</a>
+        <a href="#3" class="mr-5 hover:text-red-400">Om Mig</a>
+        <a href="#4" class="mr-5 hover:text-red-400">Fremtidige arbejdsopgaver</a>
+        <a href="#5" class="mr-5 hover:text-red-400">Galleri</a>
       </nav>
     </header>
-    <main class="m-5">
-      <section class="grid">
-        <h1 class="text-8xl ml-11 mt-24">Julie Iben Kristensen</h1>
-        <h2 class="m-4 text-4xl ml-96">Udvalgte projekter</h2>
-        <p class="mt-20 ml-64">Velkommen til mit lille univers.</p>
-        <p class=" ml-64 mt-5 mr-96">Jeg har udarbejdet et lille personligt website, så du kan <br> lærer mig og mine kompetencer bedre at kende. </p>
+    <main class="hidden md:block m-5">
+      <section class="grid mb-52">
+        <h1 class="  md: md:text-8xl text-5xl mdÆ:ml-11 md:mt-24 mt-12 ml-4">Julie Iben Kristensen</h1>
+        <h2 class="m-4 md:text-4xl text-lg md:ml-96 ml-48">Udvalgte projekter</h2>
+        <p class="md:mt-20 md:ml-64 mt-20 ml-20">Velkommen til mit lille univers.</p>
+        <p class=" md:ml-64 mt-5 md:mr-96 md:mr- mt-20 ml-20">Jeg har udarbejdet et lille personligt website, så du kan lærer <br> mig og mine kompetencer bedre at kende. </p>
+        <div class="ml-72">
+          <img class="w-14 ml-96 mt-44" src="/img/arrow.png" alt="pil">
+        </div>
+        
       </section>
-      <section class="grid">
-        <h1 class="text-5xl">Mine kompetencer & interesser</h1>
-        <p>Jeg ser mig selv som et meget kreativt menneske og har altid 2-3 forskellige hobbyprojekter i gang på siden. Derfor giver det også rigtig god mening at jeg er meget glad for design. Jeg elsker at brainstorme designideer og udarbejde en prototype, så man ser alle ens ideer folde sig ud. </p>
-        <p>Da jeg startede på Multimedie Design uddannelsen, var det bestemt også mest for det kreative aspekt, men fandt ret hurtigt ud af at det der med at kode sin egen hjemmeside osv også er helt vildt fedt, så har fundet en kæmpe kærlighed i HTML, CSS og Javscript også.</p>
-        <p>Jeg har erfaring inden med Photoshop, Illustrator, Adobe XD og Figma, samt lidt inden for InDesign og resten af Adobe-pakken.</p>
+      <section >
+        <h1 id="2" class="text-6xl mt-96 ml-96 pl-72 mb-10">Mine kompetencer & interesser</h1>
+        <div class="flex"> 
+        <div>
+          <p class=" px-36 mb-10">Jeg ser mig selv som et meget kreativt menneske og har altid 2-3 forskellige hobbyprojekter i gang på siden. Derfor giver det også rigtig god mening at jeg er meget glad for design. Jeg elsker at brainstorme designideer og udarbejde en prototype, så man ser alle ens ideer folde sig ud. </p>
+        <p class="px-36 mb-10">Da jeg startede på Multimedie Design uddannelsen, var det bestemt også mest for det kreative aspekt, men fandt ret hurtigt ud af at det der med at kode sin egen hjemmeside osv også er helt vildt fedt, så har fundet en kæmpe kærlighed i HTML, CSS og Javscript også.</p>
+         <p class="px-36 ">Jeg har erfaring inden med Photoshop, Illustrator, Adobe XD og Figma, samt lidt inden for InDesign og resten af Adobe-pakken.</p> 
+         <!-- pl-40 pr-96 mr-64 mb-10 -->
+        </div>
+          <img class="h-48 mr-10" src="/img/ACD.png" alt="Logo">
+      
+</div>
+      </section>
+      <section>
+        <h1 id="3" class="text-6xl mt-96 pt-32 mb-10 pl-72">Om Mig</h1>
+        <div class="flex">
+        <img class="w-80 ml-32" src="/img/Julie.JPG" alt="Selvportræt">
+        <div>
+          <p class=" mt-10 mb-10 mr-32 ml-32">
+          Jeg er 24 år gammel og altid påført et smil. Til hverdag bor jeg på nørrebro med min veninde og så bruger jeg meget tid på KEA, hvor jeg studere Mulitmedie Design. Jeg er rigtig glad for at arbejde kreativt og i grupper.
+        </p>
+        <p class=" mr-32 ml-32">
+          Jeg har også en lille hobbyforretning, hvor jeg designer og hækler tasker. Udover at hækle bruger jeg også meget tid på at male, brodere og tatovere.
+        </p>
+        </div>
+        </div>
+       
+        
+      </section>
+      <section>
+        <h1 id="4" class="mb-10 text-6xl mt-96 pt-24 ml-96 pl-72">Fremtidige arbejdsopgaver</h1>
+        <div class="flex">
+          <div>
+            <p class="mb-10 pl-40 mr-32 ">
+          Som tidligere nævnt er jeg meget glad for både design og kode, så min drøm om fremtidige arbejdsopgaver er en god blanding af begge.
+        </p>
+        <p class="mb-10 pl-40 mr-32 ">
+          Det er også i de to emner jeg rigtig gerne vil lærer en masse ting indenfor fx brand orienteret design og generelt at få hands-on erfaring med at arbejjde i et mere professionelt miljø og de forskellige arbejdsrutiner som er på en arbejdsplads.
+        </p>
+        <p class="pl-40 mr-32 ">
+          Jeg er også interesseret i SoMe marketing og hvordan virksomheden kommunikere til kunder.
+        </p>
+          </div>
+          <img class="w-4/12 mr-32" src="/img/spil.png" alt="spil">
+        </div>
+        
+      </section>
+      <section>
+        <h1 id="5" class="text-6xl mt-96 pt-32 mb-10 pl-32">Redesigns af hjemmesider</h1>
+        <div class="flex gap-10" >
+            <a class="hover:mix-blend-overlay" href="https://jako500n.github.io/13.04.02_radikalt_redesign/"><img src="/img/vildskud.png" alt="Vildskud redesign"></a>
+            <a class="hover:mix-blend-overlay" href="https://fervent-wing-d95c8b.netlify.app/index.html"><img src="/img/blond.png" alt="blond bageriet"></a>
+            <a class="hover:mix-blend-overlay" href="http://www.juliehagemann.dk/kea/07_dynamiskweb/07.04.01-gruppeprojekt/"><img src="/img/acdredesign.png" alt="redesign af A-CD"></a>
+        </div>
       </section>
     </main>
-    <footer>
+<h1 class=" md:hidden text-8xl mt-96 text-center">Virker kun i web</h1>
+<h2 class="md:hidden text-2xl mt-6 text-center">af Julie Iben Kristensen</h2>
+    <footer class="hidden md:block">
       <p class="text-center">Made by Julie Iben Kristensen</p>
     </footer>
     <script type="module" src="./main.js"></script>
